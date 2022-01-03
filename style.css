@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 768px;
+  height:100vh;
+  background-color: tomato;
+  /* text-align: center; */
+}
+.title{
+width: 50%;
+padding: 10px;
+background-color: rgb(152, 152, 230);
+text-align: center;
+margin: 20px auto;
+border-radius: 10px;
+border:2px solid rgb(1, 95, 24);
+}
+.title h1{
+  font-size: 30px;
+}
+.title p{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.box{
+  height: 320px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: turquoise;
+  text-align: center;
+
+}
+.box .box-size{
+  width: 100%;
+  text-align: center;
+
+}
+.box-size h4{
+  margin: 30px auto;
+}
+.box .box-size input{
+  padding: 10px 20px;
+  text-align: center;
+}
+button{
+  padding: 10px 25px;
+}
+.box-size  p{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#javob{
+  padding: 10px 25px;
+  background-color: green;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 30px;
+}
